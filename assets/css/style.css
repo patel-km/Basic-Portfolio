@@ -35,11 +35,12 @@ a {
 .navbar {
     position: absolute;
     top: 0;
+    margin: auto;
     background-color: #fff;
     width: 940px;
-    margin: auto;
     padding: 10px;
     border-bottom: 2px solid #ccc;
+    display: block;
 }
 
 
@@ -66,7 +67,7 @@ body {
     background-color: #fff;
     height:60%;
     width: 920px;
-    padding: 20px;
+    padding: 20 20 40 20px;
     margin: auto;
 }
 
@@ -104,10 +105,10 @@ img {
     float: left;
 }
 
-#message {
-    height: 5px;
+input {
+    margin: 5 5 5 0px;
+    width: 920px;
 }
-
 .button{
     color: #fff;
     background-color: #4aaaa5;
@@ -127,5 +128,4 @@ img {
     text-align: center;
     padding: 20 20 10 20px;
     font-size: 10px;
-
 }
