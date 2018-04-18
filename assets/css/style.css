@@ -1,42 +1,131 @@
+/* Nav Bar */
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
 #name {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: bold;
+    background-color: #4aaaa5;
+    color: #fff;
+    padding: 10px;
+}
+
+li {
+    display: inline;
+    float: right;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #fff;
+    color: #777;
+    text-decoration: none;
+}
+
+.clearfix {
+    overflow: auto;
 }
 
 .navbar {
-    overflow: hidden;
-    background-color: #ffffff;
-    position: fixed;
+    position: absolute;
     top: 0;
-    width: 100%;
-    text-align: right;
-    padding: 18px;
-    color: #777;
+    background-color: #fff;
+    width: 940px;
+    margin: auto;
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
 }
 
 
+/* Body CSS */
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: bold;
+    color:#4aaaa5;
+    border-bottom: 3px solid #ccc;
+    padding-bottom: 20px;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #ffffff;
+    background: url(../images/circles-light/circles-light.png);
     padding: 40px;
     color: #777;
 }
 
 .main {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #ffffff;   
+    background-color: #fff;
+    height:60%;
+    width: 920px;
+    padding: 20px;
+    margin: auto;
 }
 
+section{
+    padding:20px;
+    width:200px;
+    height:200px;
+}
+
+img {
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin: 0 10 10 10px;
+}
+
+/* img {
+    overflow: hidden;
+    width: 100%;
+} */
+
+.portfolio{
+    height:80%;
+}
+
+.box-set {
+    display: inline;
+}
+
+.box-1, .box-2 {
+    float: left;
+}
+
+.box-3, .box-4 {
+    float: left;
+}
+
+#message {
+    height: 5px;
+}
+
+.button{
+    color: #fff;
+    background-color: #4aaaa5;
+    padding: 10px;
+    width: 50px;
+}
+
+/* Footer CSS */
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #666666;
-    color: white;
+    border-top: 5px solid #4aaaa5;;
+    background-color: #666;
+    color: #fff;
     text-align: center;
+    padding: 20 20 10 20px;
+    font-size: 10px;
+
 }
