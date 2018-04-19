@@ -60,15 +60,22 @@ body {
     background: url(../images/circles-light/circles-light.png);
     padding: 40px;
     color: #777;
+    overflow-y: auto;
+    margin-bottom: 60px;
+}
+
+p{
+    line-height: 1.5;
 }
 
 .main {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #fff;
-    height:60%;
+    height:auto;
     width: 920px;
     padding: 20 20 40 20px;
     margin: auto;
+    overflow-y: auto;
 }
 
 section{
@@ -81,13 +88,12 @@ img {
     float: left;
     height: 150px;
     width: 150px;
-    margin: 0 10 10 10px;
+    margin: 0 10 10 0px;
 }
 
-/* img {
-    overflow: hidden;
-    width: 100%;
-} */
+.box-set {
+    position: relative;
+}
 
 .portfolio{
     height:80%;
@@ -97,17 +103,28 @@ img {
     display: inline;
 }
 
-.box-1, .box-2 {
-    float: left;
+#box-2, #box-4 {
+    left: 20px;
 }
 
-.box-3, .box-4 {
-    float: left;
+#box-3, #box-5 {
+    down: 20px;
 }
 
 input {
     margin: 5 5 5 0px;
     width: 920px;
+}
+textarea{
+    resize: vertical;
+    text-rendering: auto;
+    font: 400 13.3333px Arial;
+    text-align: start;
+    text-transform: none;
+    word-spacing: normal;
+    letter-spacing: normal;
+    text-indent: 0px;
+    display: inline-block;
 }
 .button{
     color: #fff;
