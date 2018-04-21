@@ -67,10 +67,6 @@ body {
 p{
     line-height: 1.5;
 }
-/* 
-.portfolio{
-    height:auto;
-} */
 
 .main {
     font-family: Arial, Helvetica, sans-serif;
@@ -79,19 +75,6 @@ p{
     width: 920px;
     padding: 20 20 40 20px;
     margin: auto;
-}
-
-#box-1, #box-3, #box-5{
-    position: static;
-}
-
-#box-2{
-    position: relative;
-    right:500px;
-}
-
-#box-4 {
-    
 }
 
 section{
@@ -105,12 +88,6 @@ img {
     width: 200px;
     margin: 5 5 5 0px;
 }
-
-.box-set {
-    display: inline;
-    /* float: left; */
-}
-
 
 input {
     margin: 5 5 5 0px;
